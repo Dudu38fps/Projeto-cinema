@@ -21,20 +21,38 @@ body{
     background-attachment: fixed;
 }
 
-section > img{
-    width: 100vw;
-    height: 100vh;
-   }
-
-   section#botao {
-    text-align: right;
-   }
-
-section#botao img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    
+main {
+    background-color: aqua;
+    position: relative;
 }
+
+section#tela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 1000px;
+    height: 500px;
+
+
+   }
+   
+   section#botao{
+    
+    
+   }
+
+
+   section#botao  img {
+    position: absolute;
+    left: 95%;
+    width: 50px;
+    height: 55px;
+    margin: 6px;
+    border-radius: 50%;
+
+   }
+   
 
 
