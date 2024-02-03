@@ -22,31 +22,38 @@ body{
 }
 
 main {
-    background-color: aqua;
+    background-color: antiquewhite;
     position: relative;
 }
 
+main h1 {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
 section#tela {
+    margin-top: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 350px;
     background-color: black;
     width: 1000px;
     height: 500px;
-
+    background-size: cover;
+    background-attachment: fixed;
 
    }
    
    section#botao{
-    
+    text-align: center;
     
    }
 
 
    section#botao  img {
-    position: absolute;
-    left: 95%;
     width: 50px;
     height: 55px;
     margin: 6px;
