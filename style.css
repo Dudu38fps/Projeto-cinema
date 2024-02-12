@@ -48,27 +48,35 @@ section#tela {
 
    iframe#tela {
     width: 1000px;
+    
     height: 500px;
-
+    
    }
    
    section#botao{
     position: absolute;
+    background-attachment: fixed;
     
-    background-color: rgb(20, 26, 39);
     top: 105%;
     left: 50%;
     transform:  translate(-53%, -50%);
-    margin: 20px;
+    
    }
 
 
    section#botao  img {
     width: 70px;
     height: 75px;
-    margin: 15px;
+    margin: 4px;
+    padding: 2px;
     border-radius: 50%;
+    box-sizing: border-box;
+   }
 
+   section#botao img:hover {
+    border: solid rgb(20, 26, 39) 2px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.253);
+    transition: transform .3s border .3s;
    }
    
 
