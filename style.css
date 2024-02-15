@@ -19,6 +19,10 @@ body{
     background-color: rgb(14, 13, 13);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 main {
@@ -32,24 +36,19 @@ main h1 {
 }
 
 section#tela {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 350px;
+    margin-top: 5px;
     background-color: black;
     width: 1000px;
     height: 500px;
     background-size: cover;
     background-attachment: fixed;
     border: 1px white solid;
-    display: flex;
+    
 
    }
 
    iframe#tela {
     width: 1000px;
-    
     height: 500px;
     
    }
@@ -57,8 +56,7 @@ section#tela {
    section#botao{
     position: absolute;
     background-attachment: fixed;
-    
-    top: 105%;
+    top: 96%;
     left: 50%;
     transform:  translate(-53%, -50%);
     
