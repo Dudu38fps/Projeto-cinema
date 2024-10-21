@@ -25,9 +25,6 @@ body{
     
 }
 
-main {
-    position: relative;
-}
 
 main h1 {
     text-align: center;
@@ -36,29 +33,30 @@ main h1 {
 }
 
 section#tela {
-    margin-top: 5px;
+    margin-top: 15px;
     background-color: black;
-    width: 1000px;
-    height: 500px;
+    width: 75vw;
+    height: 70vh;
     background-size: cover;
     background-attachment: fixed;
-    border: 1px white solid;
+    border: 2px solid white;
+    
     
 
    }
 
    iframe#tela {
-    width: 1000px;
-    height: 500px;
+    width: 75vw;
+    height: 70vh;
+    border: none;
     
    }
    
    section#botao{
-    position: absolute;
+    display: flex;
     background-attachment: fixed;
-    top: 96%;
-    left: 50%;
-    transform:  translate(-53%, -50%);
+    flex-wrap: wrap;
+    justify-content: center;
     
    }
 
@@ -67,7 +65,7 @@ section#tela {
     width: 70px;
     height: 75px;
     margin: 4px;
-    padding: 2px;
+    padding: 1px;
     border-radius: 50%;
     box-sizing: border-box;
    }
